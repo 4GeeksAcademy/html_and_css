@@ -50,8 +50,9 @@ css/
 ### Cómo enlazar CSS desde la carpeta:
 ```html
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/mobile.css">
+<link rel="stylesheet" href="css/components.css">
 ```
-
 ## 💻 Carpeta JS
 
 Guarda todos tus archivos JavaScript aquí:
@@ -65,6 +66,7 @@ js/
 ### Cómo enlazar JavaScript desde la carpeta:
 ```html
 <script src="js/script.js"></script>
+<script src="js/utils.js"></script>
 ```
 
 ## 🖼️ Carpeta Images (o img)
@@ -86,6 +88,7 @@ images/
 ```html
 <img src="images/logo.png" alt="Logo">
 <img src="images/products/producto1.jpg" alt="Producto 1">
+<img src="images/backgrounds/hero-bg.jpg" alt="hero-bg">
 ```
 
 ## 📂 Rutas Relativas vs Absolutas
